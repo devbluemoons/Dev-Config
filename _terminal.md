@@ -5,8 +5,14 @@
 
 ```json
 // setting.json
-// Google's material-design-colors
 
+// eslint
+ "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+},
+"editor.formatOnSave": true,
+
+// Google's material-design-colors
 "terminal.integrated.defaultProfile.osx": "zsh",
 "terminal.external.osxExec": "iTerm.app",
 "terminal.integrated.fontFamily": "MesloLGS NF",
@@ -29,5 +35,39 @@
     "terminal.ansiBrightMagenta": "#ff80ab",
     "terminal.ansiBrightCyan": "#a7fdeb",
     "terminal.ansiBrightWhite": "#fefefe"
-}
+},
+
+// bracket pair colorizer-2
+"bracket-pair-colorizer-2.colors": [
+    "DeepSkyBlue",
+    "DodgerBlue",
+    "MediumSlateBlue",
+    "BlueViolet",
+    "MediumVioletRed",
+    "DeepPink",
+    "Red",
+    "DarkOrange",
+    "Gold",
+    "GreenYellow",
+    "LimeGreen",
+    "LightSeaGreen",
+    "DarkTurquoise"
+],
+
+// indent rainbow
+"indentRainbow.colors": [
+    "rgba(0,191,255,0.07)",
+    "rgba(30,144,255,0.07)",
+    "rgba(123,104,238,0.07)",
+    "rgba(138,43,226,0.07)",
+    "rgba(199,21,133,0.07)",
+    "rgba(255,20,147,0.07)",
+    "rgba(255,0,0,0.07)",
+    "rgba(255,140,0,0.07)",
+    "rgba(255,215,0,0.07)",
+    "rgba(173,255,47,0.07)",
+    "rgba(50,205,50,0.07)",
+    "rgba(32,178,170,0.07)",
+    "rgba(0,206,209,0.07)"
+],
 ```
