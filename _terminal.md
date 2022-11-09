@@ -69,8 +69,12 @@
         "rgba(32,178,170,0.07)",
         "rgba(0,206,209,0.07)"
     ],
-    
     // display whitespace
     "editor.renderWhitespace": "all",
+    "workbench.iconTheme": "material-icon-theme",
+
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false
 }
 ```
