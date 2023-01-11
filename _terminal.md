@@ -75,6 +75,13 @@
 
     "editor.tabSize": 4,
     "editor.insertSpaces": true,
-    "editor.detectIndentation": false
+    "editor.detectIndentation": false,
+    "bracket-pair-colorizer-2.depreciation-notice": false,
+    "prettier.tabWidth": 4,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "go.toolsManagement.autoUpdate": true,
+    "workbench.startupEditor": "none",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "terminal.integrated.copyOnSelection": true
 }
 ```
